@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   /* background-color: oldlace; */
     background: linear-gradient(90deg, rosybrown, peachpuff);
@@ -8,6 +12,15 @@ h1 {
       font-family:'Arizonia', cursive;
       text-align: center;
     }
+h2,h3 {
+    font-family:'Arizonia', cursive;
+}
+h2{
+    font-size: 60px;
+}
+h3{
+    font-size: 50px;
+}
 .main-nav{
   background-color: black;
   color: white;
@@ -29,4 +42,20 @@ h1 {
 .main-nav a:hover{
     background-color: white;
     color: black;
+}
+main > aside, main > section {
+  display: inline-block;
+}
+main >aside{
+    width: 15%;
+    background-color: mistyrose;
+    text-align: center;
+    padding: 0;
+    margin: 30px;
+}
+main > section {
+    width: 55%;
+    background-color: mistyrose;
+    text-align: center;
+    margin: 25px;
 }
