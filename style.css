@@ -1,9 +1,32 @@
 body {
   /* background-color: oldlace; */
     background: linear-gradient(90deg, rosybrown, peachpuff);
-    font-family: 'Josefin Slab', cursive;
+    font-family: 'Bad Script', cursive;
 }
 h1 {
-      font-size: 60px;
-      font-family: 'Charmonman'
+      font-size: 100px;
+      font-family:'Arizonia', cursive;
+      text-align: center;
     }
+.main-nav{
+  background-color: black;
+  color: white;
+  list-style: none;
+}
+.main-nav li{
+    display: inline-block;
+    font-size: 24px;
+    margin:0 20px 0  40px;
+}
+.main-nav a{
+    color:white;
+    text-decoration: none;
+    /*background-color:palevioletred;*/
+    padding: 10px;
+    display: block;
+    margin: 20px;
+}
+.main-nav a:hover{
+    background-color: white;
+    color: black;
+}
