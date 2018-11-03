@@ -1,0 +1,9 @@
+body {
+  /* background-color: oldlace; */
+    background: linear-gradient(90deg, rosybrown, peachpuff);
+    font-family: 'Josefin Slab', cursive;
+}
+h1 {
+      font-size: 60px;
+      font-family: 'Charmonman'
+    }
