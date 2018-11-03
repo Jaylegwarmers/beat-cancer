@@ -12,7 +12,7 @@ h1 {
       font-family:'Arizonia', cursive;
       text-align: center;
     }
-h2,h3 {
+h2,h3, h4 {
     font-family:'Arizonia', cursive;
 }
 h2{
@@ -21,6 +21,14 @@ h2{
 h3{
     font-size: 50px;
 }
+h4{
+  font-size: 45px;
+}
+ p{
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px
+}
+
 .main-nav{
   background-color: black;
   color: white;
@@ -44,7 +52,7 @@ h3{
     color: black;
 }
 main > aside, main > section {
-  display: inline-block;
+float:left;
 }
 main >aside{
     width: 15%;
@@ -58,4 +66,27 @@ main > section {
     background-color: mistyrose;
     text-align: center;
     margin: 25px;
+}
+article img{
+  float: right;
+  width: 300px;
+  magin-left: 20px;
+}
+article a {
+  color:white;
+}
+article a:hover{
+  color: darkmagenta;
+}
+articlea, article a:visited{
+  color:  hotpink;
+}
+.products {
+    width: 45%;
+    float:left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.products img{
+  width: 100%;
 }
